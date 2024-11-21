@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                font-family: arial;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 60px;
+                border: none;
+                background-color: rgb(120, 82, 178);
+            }
+
+            .left-section{
+
+                width: 150px;
+                font-weight: bold;
+                font-size: 15px;
+                color: white;
+                margin-left: 15px;
+            }
+
+            .middle-section{
+
+                flex: 1;
+                margin-right: 100px;
+                margin-left: 70px;
+            }
+            .search-bar{
+                width: 100%;
+                padding: 8px;
+                border: none;
+                border-radius: 100px;
+            }
+
+            .right-section{
+
+                width: 300px;
+            }
+
+            .download-button{
+                margin-left: 200px;
+                padding: 6px;
+                color: white;
+                background-color: rgb(120, 82, 178);
+                border-style: solid;
+                border-color: white;
+                border-width: 1px;
+                cursor: pointer;
+            }
+
+            .download-button:active{
+                opacity: 0.3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left-section">
+                Home
+            </div>
+            <div class="middle-section">
+                <input type="text" placeholder="Search" class="search-bar">
+            </div>
+            <div class="right-section">
+                <button class="download-button">Download</button>
+            </div>
+        </div>
+    </body>
+</html>

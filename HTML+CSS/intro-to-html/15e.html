@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .pic-container{
+                display: inline-block;
+                position: relative;
+                margin-left: 30px;
+            }
+
+            .blazer{
+                width: 350px;
+                height: 300px;
+            }
+
+            .discount-container{
+                position: absolute;
+                top: 10px;
+                right: 0;
+                background-color: black;
+                color: white;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 16px;
+                padding-right: 16px;
+                font-family: arial;
+                font-size: 18px;
+            }
+
+            .bottom-overlay{
+                position: absolute;
+                display: flex;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 80px;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0.8);
+                
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="full-box">
+            <div class="pic-container">
+                <img src="IMG_8102.jpg" class="blazer">
+                <div class="discount-container">20% Off</div>
+                <div class="bottom-overlay">
+                    <button class="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

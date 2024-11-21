@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .full-box{
+                width: 150px;
+                height: 300px;
+                box-shadow: 0px 0px 4px 0px;
+                margin-right: 0px;
+                
+            }
+            .pfp{
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .lower-vertical{
+                width: 100%;
+                margin-left: 4px;
+            }
+            .first-horizontal{
+                width: 100%;
+            }
+            .second-horizontal{
+                width: 100%;
+                align-items: center;
+                margin-bottom: 18px;
+            }
+            .below-photo{
+                width: 35px;
+                height: 35px;
+                border-radius: 100px;
+                margin-right: 10px;
+                
+            }
+
+            .friends{
+                width: 100%;
+                align-items: center;
+                margin-top: 5px;
+                font-size: 12px;
+                font-family: arial;
+                color: rgb(95, 96, 96);
+                margin-right: 0px;
+            }
+
+            .username{
+                margin-top: 5px;
+                font-family: arial;
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+            .actual-button{
+                background-color: rgb(0, 136, 255);
+                color: white;
+                border: none;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border-radius: 6px;
+                margin-left: 8px;
+            }
+            .actual-button:hover{
+                cursor: pointer;
+            }
+            .actual-button:active{
+                opacity: 0.3;
+            }
+
+            .full-box-grid{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 10px;
+                row-gap: 0px;
+                margin-right: 0px;
+            }
+
+            .second-verti-grid{
+                display: grid;
+                grid-template-columns: 40px 1fr;
+            }
+
+            .column-1,
+            .column-2,
+            .column-3 {
+            margin-right: 0;
+            display: grid;
+             }
+        </style>
+    </head>
+    <body>
+        <div class="full-box-grid">
+            <div class="column-1">
+                <div class="full-box">
+                    <div class="upper-vertical">
+                        <img src="image3.jpg" class="pfp">
+                    </div>
+                    <div class="lower-vertical">
+                        <div class="first-vertical">
+                            <p class="username">PradyZaddy</p>
+                        </div>
+                        <div class="second-vertical">
+                            <div class="second-verti-grid">
+                                <div class="first-horizontal">
+                                    <img src="image2.png" class="below-photo">
+                                </div>
+                                <div class="second-horizontal">
+                                    <p class="friends">69 mutual friends</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="third-vertical">
+                            <button class="actual-button">Add Friend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+        
+            <div class="column-2">
+                <div class="full-box">
+                    <div class="upper-vertical">
+                        <img src="image1.jpg" class="pfp">
+                    </div>
+                    <div class="lower-vertical">
+                        <div class="first-vertical">
+                            <p class="username">Nannu</p>
+                        </div>
+                        <div class="second-vertical">
+                            <div class="second-verti-grid">
+                                <div class="first-horizontal">
+                                    <img src="image2.png" class="below-photo">
+                                </div>
+                                <div class="second-horizontal">
+                                    <p class="friends">420 mutual friends</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="third-vertical">
+                            <button class="actual-button">Add Friend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column-3">
+                <div class="full-box">
+                    <div class="upper-vertical">
+                        <img src="image4.png" class="pfp">
+                    </div>
+                    <div class="lower-vertical">
+                        <div class="first-vertical">
+                            <p class="username">Zippo2001</p>
+                        </div>
+                        <div class="second-vertical">
+                            <div class="second-verti-grid">
+                                <div class="first-horizontal">
+                                    <img src="image2.png" class="below-photo">
+                                </div>
+                                <div class="second-horizontal">
+                                    <p class="friends">47 mutual friends</p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="third-vertical">
+                            <button class="actual-button">Add Friend</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                
+        </div>
+    </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                height: 3000px;
+            }
+
+
+            .full-header{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: fixed;
+                top: 5px;
+                left: 0px;
+                right: 0;
+            }
+
+            .main-one{
+                display: flex;
+            }
+            .main-two{
+                display: flex;
+                margin-right: 160px;
+            }
+
+
+            .profile-pic{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+            }
+            .profile-pic-container{
+                display: flex;
+                align-items: center;
+            }
+
+            .name-container{
+                display: flex;
+                align-items: center;
+                margin-left: 12px;
+            }
+            .name{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+
+            .button-1{
+                margin-right: 10px;
+                padding: 10px;
+                background-color: rgb(34, 104, 253);
+                color: white;
+                border: none;
+                border-radius: 8px;
+            }
+            .button-1:hover{
+                cursor: pointer;
+            }
+            .button-1:active{
+                opacity: 0.3;
+            }
+            .button-2{
+                padding: 10px;
+                background-color: rgb(234, 232, 232);
+                color: black;
+                border: none;
+                border-radius: 8px;
+            }
+            .button-2:hover{
+                cursor: pointer;
+            }
+            .button-2:active{
+                opacity: 0.3;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="full-header">
+            <div class="main-one">
+                <div class="profile-pic-container">
+                    <img src="image3.jpg" class="profile-pic">
+                </div>
+                <div class="name-container">
+                    <div class="name">PradyZaddy</div>
+                </div>
+            </div>
+            <div class="main-two">
+                <div class="button">
+                    <button class="button-1">Add Friend</button>
+                </div>
+                <div class="button">
+                    <button class="button-2">Message</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
